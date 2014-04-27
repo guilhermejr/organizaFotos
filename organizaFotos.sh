@@ -17,7 +17,7 @@ else
 fi
 
 # --- Percorre todas as imagens e vídeos da pasta ---
-echo "$(find -E . -type f -iregex '.*\.(jpg|mov|mp4)$' -maxdepth 1 | cut -c3-)" | while read arquivo; do
+echo "$(find -E . -type f -iregex '.*\.(jpg|gif|png|mov|mp4)$' -maxdepth 1 | cut -c3-)" | while read arquivo; do
 
 	# --- Verifica se existe algum arquivo para processar ---
 	if [ ! -f "$arquivo" ]; then
