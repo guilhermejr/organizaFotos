@@ -5,7 +5,7 @@
 #
 
 # --- Pasta onde ficam as fotos ---
-pasta="/Users/guilhermejr/Dropbox/Camera Uploads"
+pasta="/Users/guilhermejr/OneDrive/Imagens/Imagens da Câmera/"
 
 # --- Verifica se a pasta existe --
 if [ ! -d "$pasta" ]; then
