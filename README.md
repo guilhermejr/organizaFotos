@@ -14,13 +14,16 @@ ele, não sei se vai funcionar em outras versões do OS X nem se vai funcionar e
 alguma distribuição Linux. Caso você teste e funcione por favor me avise.
 
 Para executar o script você só vai precisar editar a linha 8 onde tem a variável
-com o caminho para a pasta onde ficam as fotos::
+com o caminho para a pasta onde ficam as fotos
 
-pasta=“/Users/guilhermejr/OneDrive/Imagens/Imagens da Câmera/”
+	pasta=“/Users/guilhermejr/OneDrive/Imagens/Imagens da Câmera/”
 
-Depois é só mudar a permissão do arquivo e executa-lo::
+Depois é só mudar a permissão do arquivo e executa-lo
 
-$ chmod 755 organizaFotos.sh $ ./organizaFotos.sh Para não ter que ficar rodando
-o script manualmente coloquei ele no cron para executar todos os dias as 00:00h.
+	$ chmod 755 organizaFotos.sh 
+	$ ./organizaFotos.sh 
+
+Para não ter que ficar rodando o script manualmente coloquei ele no cron para 
+executar todos os dias as 00:00h.
 
 Dúvidas e Sugestões favor mandar um e-mail falecom@guilhermejr.net
